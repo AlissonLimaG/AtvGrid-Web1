@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Atv4Grid</title>
+	<style type="text/css">
+			body{
+				margin: 14em;
+			}
+			.e{
+				border-radius: 5px;
+				grid-area: e;
+				background-color: whitesmoke;
+			}
+			.f{
+				border-radius: 5px;
+				grid-area: f;
+				background-color: whitesmoke;
+			}
+			.g{
+				border-radius: 5px;
+				grid-area: g;
+				background-color: whitesmoke;
+			}
+			.container{
+				display: grid;
+				grid-template-columns: repeat(2, 30vw);
+				grid-template-rows: 10vh 30vh;
+				gap:10px;
+			}
+			.minicontainer{
+				padding:10px;
+			}
+			.grey{
+				background-color:grey;
+				border-radius: 5px;
+			}
+			.greycont{
+				justify-content: center;
+				align-content: center;
+				gap: 2vh;
+				display: grid;
+				grid-template-columns:repeat(2, 40%);
+				grid-template-rows: repeat(2, 40%);
+				background-color:grey;
+				border-radius: 5px;
+				grid-template-areas:
+				"e e"
+				"f g" ;
+			}
+	</style>
+</head>
+<body class="container">
+		<div class="grey">a</div>
+		<div class="grey">b</div>
+		<div class="grey">c</div>
+		<div class="greycont">
+			<div class="e">e</div>
+			<div class="f">f</div>
+			<div class="g">g</div>
+		</div>
+</body>
+</html>

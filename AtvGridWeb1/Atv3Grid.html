@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Atv3Grid</title>
+	<style>
+		.um{
+				background-color: grey;
+				grid-area: a;
+		}
+		.dois{
+				background-color: whitesmoke;
+				grid-area: b;
+		}
+		.tres{
+				background-color: grey;
+				grid-area: c;
+		}
+		.quatro{
+				background-color: whitesmoke;
+				grid-area: d;
+		}
+		.cinco{
+				background-color: grey;
+				grid-area: e;
+		}
+		.seis{
+				background-color: whitesmoke;
+				grid-area: f;
+		}
+		.sete{
+				background-color: grey;
+				grid-area: g;
+		}
+		.oito{
+				background-color: whitesmoke;
+				grid-area: h;
+		}
+		.nove{
+				background-color: grey;
+				grid-area: i;
+		}
+		.dez{
+				background-color: whitesmoke;
+				grid-area: j;
+		}
+		.onze{
+				background-color: grey;
+				grid-area: k;
+		}
+		.doze{
+				background-color: whitesmoke;
+				grid-area: l;
+		}
+		div{
+			border-radius: 5px;
+		}
+		body{
+			margin: 14em;
+		}
+		.{
+			background-color: grey;
+		}
+		.whitesmoke{
+			background-color: whitesmoke;
+		}
+
+		.container{
+			gap: 10px;
+			display: grid;
+			grid-template-columns: repeat(4,15vw);
+			grid-template-rows: repeat(3,15vh);
+			grid-template-areas:
+			"a d g j"
+			"b e h k"
+			"c f i l";
+
+		}
+	</style>
+</head>
+<body class="container">
+ <div class="um">1</div>
+ <div class="dois">2</div>
+ <div class="tres">3</div>
+ <div class="quatro">4</div>
+ <div class="cinco">5</div>
+ <div class="seis">6</div>
+ <div class="sete">7</div>
+ <div class="oito">8</div>
+ <div class="nove">9</div>
+ <div class="dez">10</div>
+ <div class="onze">11</div>
+ <div class="doze">12</div>
+</body>
+</html>
